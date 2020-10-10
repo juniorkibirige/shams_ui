@@ -1,0 +1,26 @@
+{
+    "destination_addresses": [
+        "Kyengera, Uganda"
+    ],
+    "origin_addresses": [
+        "Kyengera, Uganda"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "0 m",
+                        "value": 0
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 60
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}

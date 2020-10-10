@@ -1,0 +1,9 @@
+li.ty-statistic-list-shipping-method:nth-child(2) :nth-child(2) .location{
+    background-color: coral;
+    padding: .3em;
+}
+li.ty-statistic-list-shipping-method:nth-child(2) :nth-child(2) .location:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(216, 151, 29, 0.87)
+}

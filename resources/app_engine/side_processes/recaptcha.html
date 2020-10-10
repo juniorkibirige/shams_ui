@@ -1,0 +1,24 @@
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyB22aWkqYPpC_6qd0KUrfyd-_rKkUUO7NQ",
+        authDomain: "shams-eshop.firebaseapp.com",
+        databaseURL: "https://shams-eshop.firebaseio.com",
+        projectId: "shams-eshop",
+        storageBucket: "shams-eshop.appspot.com",
+        messageSenderId: "1037093454649",
+        appId: "1:1037093454649:web:fb84cb1fed8ce139529ee8",
+        measurementId: "G-Q1WWP5VXWZ"
+    }
+    firebase.initializeApp(firebaseConfig)
+    firebase.analytics()
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeDeOkUAAAAAD0kXJ91jKsBzdaNHPT2ZFkFlTmd"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6LeDeOkUAAAAAD0kXJ91jKsBzdaNHPT2ZFkFlTmd', {action: 'homepage'}).then(function(token) {
+       
+    });
+});
+</script>
